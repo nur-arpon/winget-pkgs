@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
+PackageIdentifier: NurArpon.Spaceadom
+PackageVersion: 1.0.148
+PackageLocale: en-US
+Publisher: Nur Ifran Arpon
+PublisherUrl: https://github.com/nur-arpon
+PublisherSupportUrl: https://github.com/nur-arpon/Spaceadom/issues
+PrivacyUrl: https://github.com/nur-arpon/Spaceadom/blob/main/PRIVACY.md
+Author: Nur Ifran Arpon
+PackageName: Spaceadom
+PackageUrl: https://github.com/nur-arpon/Spaceadom
+License: Proprietary (freeware)
+LicenseUrl: https://github.com/nur-arpon/Spaceadom/blob/main/LICENSE
+Copyright: Copyright (c) 2026 Nur Ifran Arpon
+ShortDescription: Hold Space and tap a letter to open, switch to or minimise any app.
+Description: |-
+  Spaceadom turns your spacebar into an app launcher. Hold Space and tap a letter, and that app opens; tap again and it minimises. Space on its own still types a space.
+  Hold the middle mouse button for a ring of your apps under the cursor, and slide along a touchpad edge for brightness, volume and video seeking (external monitors included).
+Moniker: spaceadom
+Tags:
+- app-launcher
+- hotkeys
+- keyboard
+- launcher
+- productivity
+- radial-menu
+ReleaseNotesUrl: https://github.com/nur-arpon/Spaceadom/releases/tag/v1.0.148
+ManifestType: defaultLocale
+ManifestVersion: 1.9.0
