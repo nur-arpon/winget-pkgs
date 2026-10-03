@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+PackageIdentifier: NurArpon.Spaceadom
+PackageVersion: 1.0.148
+InstallerType: nullsoft
+Scope: user
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+ReleaseDate: 2026-10-04
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/nur-arpon/Spaceadom/releases/download/v1.0.148/Spaceadom_1.0.148_x64-setup.exe
+  InstallerSha256: A6D9A52CD9A74BCE53EBCC14BDFD1BA8D002523C4B8B5AAB805224A3ADF88D83
+- Architecture: arm64
+  InstallerUrl: https://github.com/nur-arpon/Spaceadom/releases/download/v1.0.148/Spaceadom_1.0.148_arm64-setup.exe
+  InstallerSha256: 1C0AECE01D10911AFDE889020A31463AED96BA7B1BA724DC7A41A76A2494D268
+ManifestType: installer
+ManifestVersion: 1.9.0
